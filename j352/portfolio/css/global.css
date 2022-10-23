@@ -1,0 +1,33 @@
+body {
+    background-color: #82AEAD;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+nav {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #1309DB;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0,0, 0, 0.12);
+}
+
+nav a {
+    color: #C6CF0A;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
