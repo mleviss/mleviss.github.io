@@ -1,10 +1,18 @@
 body {
-    background-color: #82AEAD;
+    background-color: #ed7575;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 
 }
 
+h1 {
+    color: white;
+}
+
+img {
+    max-width: 300px;
+    float: right;
+}
 
 nav {
     display: block;
@@ -12,11 +20,11 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background-color: white;
+    background-color: #ed7575;
     position: sticky;
     top: 0;
     padding: 20px;
-    box-shadow: 0 2px 5px 0 rgba(229, 8, 8, 0.16), 0 2px 10px 0 rgba(0,0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(229, 8, 8, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 nav a {
@@ -30,4 +38,29 @@ main {
     max-width: 750px;
     margin: 60px auto;
     padding: 0 20px;
+}
+
+#link2 {
+    float: right;
+    display: grid;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white
+}
+
+@media(max-width: 800px) {
+    #image2 {
+        width: 100px;
+    }
 }
